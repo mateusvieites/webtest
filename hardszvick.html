@@ -6,23 +6,56 @@
     <title>HardszVick</title>
     <style>
         #menuFixo {
-            position: fixed;
-            right: 0;
-            top: 90%;
-            width: 8em;
-            margin-top: -2.5em;
-            }
+                position: fixed;
+                right: 0;
+                top: 90%;
+                width: 8em;
+                margin-top: -2.5em;
+        }
+        #menuFixo img{
+            width: 60px;
+            height: 60px;
+        }
+        .tituloMain{
+            text-align: center;
+        }
+        .icons{
+            display: flex;
+            justify-content: center;
+        }
+        .icons img{
+            width: 60px;
+            height: 60px;
+        }
+        #footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <img src="./imgs/GitHub-Mark.png"></img>
     <header id="header"> </header>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div id=menuFixo>
-        <a href="https://github.com/mateusvieites" target=”_blank”><img src="./imgs/GitHub-Mark.png" width=60 height=60></img></a>   
-    </div>
+    <main>
+        <div id=menuFixo>
+            <a href="https://github.com/mateusvieites" target=”_blank”><img src="./imgs/GitHub-Mark.png"></a>   
+        </div>
+
+        <div class="tituloMain">Linguagens:</div>
+        <div class="icons">
+             <img src="./imgs/java.webp" ></img><img src="./imgs/javascript.svg" ></img>
+         </div>
+
+         <div class="tituloMain">Ferramentas de edição:</div>
+         <div  class="icons">
+            <img src="./imgs/java.webp" ></img><img src="./imgs/javascript.svg" ></img>
+        </div>
+
+   </main>
+    
+    <footer id="footer">
+        <div id="direitos">© Todos os direitos reservados</div>
+        <div ></div>
+    </foot>
 </body>
 </html>

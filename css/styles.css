@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@media only screen and (max-device-width: 900px) {
+    .menu { width:600px; } 
+    }
 
 html,body {
     margin: 0px !important;
@@ -70,11 +73,14 @@ main {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding: 25px;
-
+    width: 100%;
 }
 
 /*teste*/
-       #hotbar ul {
+#hotbar{
+    display: inline;
+}
+    #hotbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;

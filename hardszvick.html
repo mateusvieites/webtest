@@ -1,61 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HardszVick</title>
-    <style>
-        #menuFixo {
-                position: fixed;
-                right: 0;
-                top: 90%;
-                width: 8em;
-                margin-top: -2.5em;
-        }
-        #menuFixo img{
-            width: 60px;
-            height: 60px;
-        }
-        .tituloMain{
-            text-align: center;
-        }
-        .icons{
-            display: flex;
-            justify-content: center;
-        }
-        .icons img{
-            width: 60px;
-            height: 60px;
-        }
-        #footer {
-            background-color: black;
-            color: white;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    <header id="header"> </header>
+
+    <header id="header">
+        <div id="avatar"><a href="https://github.com/mateusvieites" target=”_blank”><img src="./imgs/avatar.png"
+                    alt="aa"></a></div>
+    </header>
+
+    <div id=menuFixo>
+        <a href="https://github.com/mateusvieites" target=”_blank”><img src="./imgs/GitHub-Mark.png"></a>
+    </div>
+
     <main>
-        <div id=menuFixo>
-            <a href="https://github.com/mateusvieites" target=”_blank”><img src="./imgs/GitHub-Mark.png"></a>   
+        <div id="hotbar">
+                <ul>
+                    <li><a href="#SobreMim">Sobre mim</a></li>
+                    <li><a href="#Linguagens">Linguagens</a></li>
+                    <li><a href="#edicao">Ferramentas de edição</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
         </div>
 
-        <div class="tituloMain">Linguagens:</div>
-        <div class="icons">
-             <img src="./imgs/java.webp" ></img><img src="./imgs/javascript.svg" ></img>
-         </div>
-
-         <div class="tituloMain">Ferramentas de edição:</div>
-         <div  class="icons">
-            <img src="./imgs/java.webp" ></img><img src="./imgs/javascript.svg" ></img>
+        <div id="SobreMim">
+            <div class="tituloMain">Sobre mim:</div>
+            <div class="textoSobreMim"><span>Olá, me chamo Mateus Vieites faço ciências da computação e sou um
+                    entusiasta da área de computação</span></div>
         </div>
 
-   </main>
-    
+        <div id="Linguagens">
+            <div class="tituloMain">Linguagens:</div>
+            <div class="icons">
+                <img src="./imgs/java.webp" alt="Java" title="Java"><img src="./imgs/javascript.svg" alt="Javascript"
+                    title="Javascript">
+                <img src="./imgs/python.webp" alt="Python" title="Python"><img src="./imgs/html.png" alt="HTML 5"
+                    title="HTML 5">
+            </div>
+        </div>
+
+        <div id="edicao">
+            <div class="tituloMain">Ferramentas de edição:</div>
+            <div class="icons">
+                <img src="./imgs/photoshop.png" alt="PhotoShop" title="PhotoShop"><img src="./imgs/SonyVegas.png"
+                    alt="SonyVegas" title="Sony Vegas"><img src="./imgs/aftereffects.jpg" alt="After effects"
+                    title="After effects">
+            </div>
+        </div>
+
+        <div id="contato">
+            <div class="tituloMain">Contatos:</div>
+            <div class="textoSobreMim">meuemail@gmail.com</div>
+        </div>
+    </main>
+
     <footer id="footer">
         <div id="direitos">© Todos os direitos reservados</div>
-        <div ></div>
-    </foot>
+        <div></div>
+    </footer>
 </body>
+
 </html>
